@@ -1,0 +1,107 @@
+:root {
+    --blue: #005880;
+    --orange: #ffbd00;
+    --light-blue: #349bd0;
+    --white: #ffffff;
+}
+
+.clr--white {
+    color: var(--white);
+}
+
+.p--0 {
+    padding-top: 0px;
+}
+
+.m---0 {
+    margin: 0;
+}
+
+.w--37 {
+    width: 37px;
+}
+
+.font-size--20 {
+    font-size: 20px;
+}
+
+.d--flex {
+    display: flex;
+}
+
+.space--between {
+    justify-content: space-between;
+}
+
+.list-style--none {
+    list-style: none;
+}
+
+.text-decoration--none {
+    text-decoration: none;
+}
+
+
+/* 
+
+          N A V B A R
+
+*/
+
+.navBar {
+    padding: 6px 6px;
+}
+
+.navBar__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#checkbox {
+    display: none;
+}
+
+.navBar__toggle__icon {
+    font-size: 40px;
+    font-weight: 600px;
+    color: var(--blue);
+}
+
+.navBar__header__logo {
+    width: 80px;
+}
+
+.navBar__search__icon {
+    background-color: var(--orange);
+    padding: 8px;
+}
+
+
+/* 
+     T O G G L E - M E N U
+*/
+
+.toggleMenu-container {
+    /* padding: 15px; */
+}
+
+#checkbox2 {
+    display: none
+}
+
+.toggleMenu__services__div {
+    display: inline-block;
+    background-color: var(--blue);
+    padding: 10px;
+}
+
+.toggleMenu__services__list {
+    line-height: 40px;
+    padding: 60px;
+}
+
+.toggleMenu__services__list a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+}
